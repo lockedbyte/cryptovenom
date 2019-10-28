@@ -1,4 +1,5 @@
 base58
+scrypt
 pyblake2
 pycrypto
 crypto
