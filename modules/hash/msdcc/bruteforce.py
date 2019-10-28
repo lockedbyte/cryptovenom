@@ -12,4 +12,5 @@ def bf(h, user1, dictionary):
         if h == h2:
     
             print('\033[1;32m[+]\033[0m Hash Cracked! - Password = ' + i)
-    
+            exit()
+    print('\033[1;31m[-]\033[0m Hash could not be cracked!')

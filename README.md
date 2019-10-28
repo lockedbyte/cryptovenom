@@ -33,29 +33,30 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
 
 [+] Classical
 
+      [*] Caesar
+      [*] Vigenere Cipher
+      [*] Playfair Cipher
+      [*] Polybius Square
+      [*] Morse
+      [*] Atbash
+      [*] Baconian
+      [*] AutoKey
+      [*] Beaufort Cipher
+      [*] Railfence Cipher
+      [*] Simple Substitution Cipher
+      [*] Columnar Tramposition
+      [*] Bifid
+      [*] Foursquare Cipher
+      [*] Fractionated Morse
+      [*] Enigma
+      [*] Gronsfeld Cipher
+      [*] Porta
+      [*] RunningKey
       [*] ADFGVX Cipher
       [*] ADFGX Cipher
       [*] Affine Cipher
-      [*] Atbash
-      [*] Autokey
-      [*] Baconian
-      [*] Beaufort Cipher
-      [*] Bifid Cipher
-      [*] Caesar Cipher
-      [*] Columnar Transposition Cipher
-      [*] Enigma Machine Cipher
-      [*] Foursquare Cipher
-      [*] Fractionated Morse
-      [*] Gronsfeld Cipher
-      [*] Morse
-      [*] Playfair Cipher
-      [*] Polybius Square
-      [*] Porta Cipher
-      [*] Railfence Cipher
-      [*] RunningKey
-      [*] Simple Substitution Cipher
       [*] Vernam Cipher
-      [*] Vigenere
+
       
 [+] Asymmetric
 
@@ -66,16 +67,17 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
       
 [+] Symmetric
 
-      [*] AES
+      [*] AES / Rijndael (Advanced Encryption Algorithm)
+      [*] DES (Data Encryption Standard)
+      [*] XOR Cipher
       [*] Blowfish
       [*] Twofish
-      [*] XOR
-      [*] DES
-      [*] 3 DES / TDES
+      [*] 3DES / TDES (Triple DES)
+      [*] RC2 (Ron's Code 2)
+      [*] RC4 (Ron's Code 4)
       [*] CAST
-      [*] RC4
-      [*] RC2
       [*] SCrypt
+
      
 [+] Encoding
 
@@ -95,35 +97,50 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
 [+] Hash
 
       [*] MD5
-      [*] MD5-HMAC
       [*] SHA-1
-      [*] SHA1-HMAC
-      [*] SHA-256
-      [*] SHA256-HMAC
-      [*] SHA-512
-      [*] SHA512-HMAC
       [*] SHA-224
-      [*] SHA224-HMAC
+      [*] SHA-256
       [*] SHA-384
-      [*] SHA384-HMAC
-      [*] HMAC
+      [*] SHA-512
       [*] MD2
-      [*] MD2-HMAC
       [*] MD4
-      [*] MD4-HMAC
+      [*] Argon2
       [*] BCrypt
-      [*] SCrypt
-      [*] RIPEMD
-      [*] RIPEMD-HMAC
+      [*] BigCrypt Unix
       [*] Blake2b
-      [*] Blake2b-HMAC
       [*] Blake2s
-      [*] Blake2s-HMAC
+      [*] BSDi Crypt Unix
+      [*] Cisco ASA Hash
+      [*] Cisco PIX Hash
+      [*] Cisco Type 7
+      [*] Crypt-16 Unix
+      [*] DES Crypt Unix
+      [*] FreeBSD Unix
+      [*] HMAC
+      [*] LDAP-MD5
+      [*] LDAP Salted MD5
+      [*] LDAP SHA-1
+      [*] LDAP Salted SHA-1
+      [*] LMHash
       [*] MD5 Unix
-      [*] SHA-512 Unix
+      [*] MSDCC Hash
+      [*] MSDCC 2 Hash
+      [*] MSSQL 2000 Hash
+      [*] MSSQL 2005 Hash
+      [*] MySQL 41 Hash
+      [*] MySQL 323 Hash
+      [*] NTHash
+      [*] NTLM Hash
+      [*] Oracle 10 Hash
+      [*] Oracle 11 Hash
+      [*] PHPass Hash
+      [*] PostgreSQL MD5
+      [*] RIPEMD
+      [*] SCrypt
       [*] SHA-256 Unix
-      [*] Blowfish Unix
-      [*] Crypt Unix
+      [*] SHA-512 Unix
+      [*] Sun MD5 Unix
+
       
       
 [+] String Manipulation
@@ -157,7 +174,7 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
       [*] OR
       [*] NOR
       [*] XNOR
-      [*] OpenPGP Operations
+      [*] PGP Operations
       
       
 I'll add more ciphers, cracking systems and functionalities!
@@ -177,6 +194,7 @@ I'll add more ciphers, cracking systems and functionalities!
 - Key Exchanges with TCP Sockets
 - More error handling and "try/excepts"
 - More customizable options
+- More encodings in hash bruteforcer
 - Add HMAC-(hash) for each hash algorithm
  
 * Please: If you want anything to be added to the tool contact me and I'll add it to the next version!

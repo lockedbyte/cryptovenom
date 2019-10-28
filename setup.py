@@ -43,8 +43,10 @@ else:
     os.system('cp aux/cryptovenom.py cryptovenom.py')
     os.system('sudo chmod 777 cryptovenom.py')
 
+print('[INFO] Exec: sudo apt-get update')
+os.system('sudo apt-get update')
 print('[INFO] Installing apt-get based dependencies...')
-os.system('sudo apt-get install build-essential libssl-dev python-dev python-scrypt')
+os.system('sudo apt-get install libgmp-dev libmpfr-dev libmpc-dev build-essential libssl-dev python-dev')
 
 print('[INFO] Installing pip requirements via -> requirements.txt')
 os.system('sudo pip install -r requirements.txt')

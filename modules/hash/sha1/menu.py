@@ -16,10 +16,10 @@ opt = raw_input('\033[1;34m[=]\033[0m Option: ')
 
 hash1 = raw_input('\033[1;34m[=]\033[0m Hash/Text: ')
 
-f0rmat = raw_input('\033[1;34m[=]\033[0m Output format (Eg.: hex): ')
+
 
 if opt == '1':
-
+    f0rmat = raw_input('\033[1;34m[=]\033[0m Output format (Eg.: hex): ')
     h = sha1(f0rmat, 'print', 'raw', hash1, '', '')
     print('\033[1;32m[+]\033[0m h(x) = ' + h)
 

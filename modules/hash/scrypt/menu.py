@@ -37,10 +37,10 @@ else:
     print('\033[1;31m[-]\033[0m Unknown option')
 
 
-f0rmat = raw_input('\033[1;34m[=]\033[0m Output format (Eg.: hex): ')
+
 
 if opt == '1':
-
+    f0rmat = raw_input('\033[1;34m[=]\033[0m Output format (Eg.: hex): ')
     h = scryptx(f0rmat, 'print', 'raw', hash1, '', '', saltt, salt)
     print('\033[1;32m[+]\033[0m h(x) = ' + h)
 
