@@ -45,7 +45,7 @@ else:
 print('[INFO] Exec: sudo apt-get update')
 os.system('sudo apt-get update')
 print('[INFO] Installing apt-get based dependencies...')
-os.system('sudo apt-get install build-essential libssl-dev python-dev python-scrypt')
+os.system('sudo apt-get install build-essential libssl-dev python-dev')
 
 print('[INFO] Installing pip requirements via -> requirements.txt')
 os.system('sudo pip install -r requirements.txt')
