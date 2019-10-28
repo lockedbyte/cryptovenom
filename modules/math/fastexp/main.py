@@ -35,7 +35,7 @@ def fast_exp(x,n):
     for bit in bits_of(n):
         if bit:
             result *= partial
-        partial ^= 2
+        partial **= 2
  
     return result
     
