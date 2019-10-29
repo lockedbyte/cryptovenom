@@ -206,3 +206,13 @@ Created By Alejandro Guerrero Rodriguez (LockedByte)
 Twitter: @LockedByte
 Telegram: @LockedByte
 Email: alejandro.guerrero.rodriguez2@gmail.com
+
+
+Collaborator:
+
+Collaborator in testing and error patching purposes.
+
+Eduardo Perez Malumbres
+
+Twitter: @blueudp
+Telegram: @blueudp
