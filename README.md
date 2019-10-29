@@ -208,9 +208,10 @@ Telegram: @LockedByte
 Email: alejandro.guerrero.rodriguez2@gmail.com
 
 
-Collaborator:
 
-Collaborator in testing and error patching purposes.
+
+
+Collaborator in testing and error patching purposes:
 
 Eduardo Perez Malumbres
 
