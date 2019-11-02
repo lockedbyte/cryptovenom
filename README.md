@@ -190,7 +190,7 @@ I'll add more ciphers, cracking systems and functionalities!
 - ElGamal
 - Bruteforcers & crackers against Symmetric algorithms
 - More crackers & bruteforcers against Classical Algorithms
-- Calculate file entrophy
+- Calculate file entropy
 - Key Exchanges with TCP Sockets
 - More error handling and "try/excepts"
 - More customizable options
