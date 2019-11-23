@@ -145,7 +145,7 @@ elif opt == '3':
     
     SubsCracker(text, ngram)
     
-elif opt == '3':
+elif opt == '4':
 
 
     opt2 = raw_input('\033[1;34m[=]\033[0m [F]ile or [T]ext: ')
