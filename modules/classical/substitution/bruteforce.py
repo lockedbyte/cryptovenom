@@ -28,10 +28,9 @@ def SimpleSubstitutionBF(ctext, dictionary):
 
     f = open(dictionary, 'r')
     keys = f.readlines()
-    keys = keys.replace('\n', '')
     
     for i in keys:
-    
+        i = i[:-1]
         out = SimpleSubstitution(i).decipher(ctext)
         print('\033[1;34m[*]\033[0m Key = ' + i + ' ; Out = ' + out)     
         
