@@ -1134,7 +1134,12 @@ if not check:
         
 
 banner(VERSION)
-
 ret = menu('main')
-
 menu(ret)
+    
+while True:
+    
+    print('\n\n')
+    ret = menu('main')
+    menu(ret)
+
