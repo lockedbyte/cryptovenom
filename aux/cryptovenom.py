@@ -489,7 +489,7 @@ def menu(menu):
         
         elif option == '12':
     
-            os.system('python modules/classical/tramposition/menu.py auto')
+            os.system('python modules/classical/coltrans/menu.py auto')
     
         elif option == '13':
     
