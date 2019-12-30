@@ -31,7 +31,7 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
 
 # Content
 
-[+] Classical
+    [+] Classical
 
       [*] Caesar
       [*] Vigenere Cipher
@@ -58,14 +58,14 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
       [*] Vernam Cipher
 
       
-[+] Asymmetric
+    [+] Asymmetric
 
       [*] RSA
       [*] Diffie-Hellman
       [*] DSA
       [*] ECC (Elliptic Curve Cryptography)
       
-[+] Symmetric
+    [+] Symmetric
 
       [*] AES / Rijndael (Advanced Encryption Algorithm)
       [*] DES (Data Encryption Standard)
@@ -79,7 +79,7 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
       [*] SCrypt
 
      
-[+] Encoding
+    [+] Encoding
 
       [*] Base16
       [*] Base32
@@ -94,7 +94,7 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
       [*] ROT-x
       [*] URL Encode/Decode
       
-[+] Hash
+    [+] Hash
 
       [*] MD5
       [*] SHA-1
@@ -143,7 +143,7 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
 
       
       
-[+] String Manipulation
+    [+] String Manipulation
 
       [*] Reverse String
       [*] Block Reverse String
@@ -157,7 +157,7 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
       [*] Add Line Numbers
       
 
-[+] Mathematical Functions
+    [+] Mathematical Functions
 
       [*] Fast Exponentiation Algorithm
       [*] Extended Euclidean Algorithm
@@ -165,7 +165,7 @@ CryptoVenom is JUST working for linux, I tested it just in kali and in Parrot OS
 
       
       
-[+] Other
+    [+] Other
 
       [*] XOR
       [*] AND
@@ -196,6 +196,7 @@ I'll add more ciphers, cracking systems and functionalities!
 - More customizable options
 - More encodings in hash bruteforcer
 - Add HMAC-(hash) for each hash algorithm
+- Custom alphabet for Random String
  
 * Please: If you want anything to be added to the tool contact me and I'll add it to the next version!
 
