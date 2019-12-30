@@ -88,6 +88,7 @@ def runningkey(txt, key, encode=1):
 
 
 def runningkey2(txt, key, encode):
+    output = ''
     for i in txt.split(" "):
         output += runningkey(i, key, encode)
         output += " "
