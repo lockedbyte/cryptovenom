@@ -1138,7 +1138,7 @@ ret = menu('main')
 menu(ret)
     
 while True:
-    
+    raw_input('\n\n\033[1;34m[*]\033[0m Continue to main? ')
     print('\n\n')
     ret = menu('main')
     menu(ret)
