@@ -1,7 +1,7 @@
 from main import *
 from bruteforce import *
 
-print '''
+print('''
 
 -=[OPTIONS]=-
 
@@ -9,7 +9,7 @@ print '''
    
    2) Hash Brute Force
    
-   '''
+''')
    
 opt = raw_input('\033[1;34m[=]\033[0m Option: ')
 
