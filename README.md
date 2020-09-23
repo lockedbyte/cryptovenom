@@ -200,6 +200,10 @@ I'll add more ciphers, cracking systems and functionalities!
  
 * Please: If you want anything to be added to the tool contact me and I'll add it to the next version!
 
+# Updates
+
+  - Creating a new improved version of Cryptovenom in C++
+
 # About
 
 Created By Alejandro Guerrero Rodriguez (LockedByte)
