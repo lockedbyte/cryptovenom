@@ -203,22 +203,10 @@ I'll add more ciphers, cracking systems and functionalities!
 # Updates
 
   - Creating a new improved version of Cryptovenom in C++
+  - Currently working on making Cryptovenom Python3-compatible
+  - Currently working on changing module calling method
 
-# About
+# Authors
 
-Created By Alejandro Guerrero Rodriguez (LockedByte)
-
-Twitter: @LockedByte
-Telegram: @LockedByte
-Email: alejandro.guerrero.rodriguez2@gmail.com
-
-
-
-
-
-Collaborator in testing and error patching purposes:
-
-Eduardo Perez Malumbres
-
-Twitter: @blueudp
-Telegram: @blueudp
+- @LockedByte
+- @133794m3r
